@@ -1,3 +1,5 @@
+This fork is installed and used through Claude Code only. The Codex-facing pieces (`agents/openai.yaml` beside each `SKILL.md`, the `npx skills@latest add` install path, `.agents/invocation.md`'s Codex column) are upstream conventions from `mattpocock/skills`, kept as-is so this fork can still take upstream updates cleanly. They describe how the skills work on Codex; they are not part of this fork's own workflow, and no change here should assume Codex is in use.
+
 Skills are organized into bucket folders under `skills/`:
 
 - `engineering/`: daily code work
